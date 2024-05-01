@@ -1,2 +1,2 @@
 # my-login
-just learning basics :)
+Simple login system created with express, passport and mysql.
