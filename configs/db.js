@@ -15,7 +15,7 @@ connection.connect(err => {
     if (err) {
         return console.error('error: ' + err.stack)
     }
-    console.log('connected as id ' + connection.threadId)
+    console.log('Database Connected as thread id: ' + connection.threadId)
 });
 
 export default connection
