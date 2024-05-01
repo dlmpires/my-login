@@ -4,7 +4,6 @@ import session from 'express-session';
 import passport from './strategies/local.js';
 import bodyParser from 'body-parser';
 import bcrypt from 'bcrypt';
-import dotenv from 'dotenv';
 
 const app = express()
 app.use(express.json());
